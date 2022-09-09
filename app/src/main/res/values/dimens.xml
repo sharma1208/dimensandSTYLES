@@ -7,7 +7,7 @@
     <dimen name="editTextHeight">40dp</dimen>
 
     <dimen name="bottomMargin">40dp</dimen>
-    <dimen name="screenMargin">15dp</dimen>
+    <dimen name="screenMargin">10dp</dimen>
     <dimen name="topPadding">10dp</dimen>
     <dimen name="leftPadding">10dp</dimen>
 

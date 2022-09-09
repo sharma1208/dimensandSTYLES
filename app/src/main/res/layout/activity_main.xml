@@ -7,90 +7,68 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="370dp"
-        android:layout_height="493dp"
+        android:layout_width="329dp"
+        android:layout_height="432dp"
         android:layout_marginTop="@dimen/screenMargin"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="@dimen/bottomMargin"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.719">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="@dimen/textViewWidth"
-            android:layout_height="@dimen/textViewHeight"
+            style="@style/textViewCustom"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.209"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.188" />
+            android:text="First Name Below"
+
+            />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
+            style="@style/EditTextCustom"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/textViewHeight"
+            android:layout_margin="@dimen/screenMargin"
             android:width="@dimen/editTextWidth"
             android:height="@dimen/editTextHeight"
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="Name"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.368"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.266" />
+            android:text="Name" />
 
         <TextView
             android:id="@+id/textView2"
+            style="@style/textViewCustom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="@dimen/textViewWidth"
             android:height="@dimen/textViewHeight"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.209"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.363" />
+            android:text="Last Name Below" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
+            style="@style/EditTextCustom"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="Name"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.368"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.46" />
+            android:text="Name" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="38dp"
-
-            android:text="Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.667" />
+            android:layout_margin="@dimen/screenMargin"
+            android:text="Click Here"
+            />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
