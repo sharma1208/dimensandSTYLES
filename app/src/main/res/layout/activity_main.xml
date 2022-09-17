@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="329dp"
-        android:layout_height="432dp"
+        android:layout_width="314dp"
+        android:layout_height="419dp"
         android:layout_marginTop="@dimen/screenMargin"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="@dimen/bottomMargin"
@@ -17,58 +17,56 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719">
+        app:layout_constraintVertical_bias="0.386">
 
         <TextView
             android:id="@+id/textView"
             style="@style/textViewCustom"
-            android:layout_width="206dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/leftPadding"
-            android:text="First Name Below"
-
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="First name"
+            android:layout_marginBottom="@dimen/bottomMarginElems"
             />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
             style="@style/EditTextCustom"
             android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/textViewHeight"
-            android:layout_margin="@dimen/screenMargin"
-            android:width="@dimen/editTextWidth"
-            android:height="@dimen/editTextHeight"
-            android:ems="10"
-            android:inputType="textPersonName"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_marginBottom="@dimen/bottomMargin"
+            android:hint="Enter Here"
+            android:inputType="text"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="Name" />
+             />
 
         <TextView
             android:id="@+id/textView2"
             style="@style/textViewCustom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:width="@dimen/textViewWidth"
-            android:height="@dimen/textViewHeight"
-            android:paddingLeft="@dimen/leftPadding"
-            android:text="Last Name Below" />
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Last Name"
+            android:layout_marginBottom="@dimen/bottomMarginElems"
+
+            />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
             style="@style/EditTextCustom"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:ems="10"
-            android:inputType="textPersonName"
+            android:hint="Enter Here"
+            android:inputType="text"
             android:paddingLeft="@dimen/leftPadding"
-            android:text="Name" />
+            android:layout_marginBottom="@dimen/bottomMargin"
+            />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_height="38dp"
+            android:layout_height="61dp"
             android:layout_margin="@dimen/screenMargin"
-            android:text="Click Here"
-            />
+            android:text="Click Here" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

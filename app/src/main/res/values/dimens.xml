@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <dimen name="textViewWidth">200dp</dimen>
-    <dimen name="textViewHeight">40dp</dimen>
-    <dimen name="editTextWidth">200dp</dimen>
-    <dimen name="editTextHeight">40dp</dimen>
+    <dimen name="textViewWidth">300dp</dimen>
+    <dimen name="textViewHeight">35dp</dimen>
 
-    <dimen name="bottomMargin">40dp</dimen>
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextHeight">45dp</dimen>
+
+    <dimen name="bottomMargin">20dp</dimen>
     <dimen name="screenMargin">10dp</dimen>
-    <dimen name="topPadding">10dp</dimen>
     <dimen name="leftPadding">10dp</dimen>
+    <dimen name="bottomMarginElems">10dp</dimen>
 
-    <dimen name="fontSize">25sp</dimen>
-    <dimen name="fontLarge">40sp</dimen>
+    <dimen name="fontSize">20sp</dimen>
+    <dimen name="fontLarge">30sp</dimen>
 
 
 

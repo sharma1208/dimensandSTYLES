@@ -9,11 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#D7CECE</color>
 
-    <color name="primaryColor">#d81b60</color>
-    <color name="primaryLightColor">#ff5c8d</color>
-    <color name="primaryDarkColor">#a00037</color>
-    <color name="primaryTextColor">#ffffff</color>
-    <color name="prettyPink">#E91E63</color>
+    <color name="primaryLightColor">#e91e63</color>
+    <color name="primaryColor">#ff6090</color>
+    <color name="primaryDarkColor">#b0003a</color>
+    <color name="secondaryColor">#ef5e91</color>
+    <color name="secondaryLightColor">#ff91c1</color>
+    <color name="secondaryDarkColor">#b92864</color>
+
+    <color name="prettyPink">#FF74A3</color>
+    <color name ="prettyRed">#BD081D</color>
 
 
 
